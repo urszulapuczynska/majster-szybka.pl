@@ -1,0 +1,626 @@
+/* Dimension: below 1344px - small laptops */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120em;
+  }
+  .heading-primary {
+    font-size: 4.8em;
+  }
+  .hero-text {
+    font-size: 2em;
+  }
+  .offer-description-1.open,
+  .offer-description-2.open,
+  .offer-description-3.open {
+    height: 32em;
+  }
+  .carousel-cards {
+    padding: 0 0.8em 3.6em 0.8em;
+  }
+}
+/* Dimension: below 1200px - tablets */
+
+@media (max-width: 75em) {
+  .heading-primary {
+    font-size: 4.2em;
+  }
+  .hero-text {
+    font-size: 1.8em;
+  }
+
+  .adavntages-section {
+    padding: 8em 4.8em;
+  }
+
+  .adv-box {
+    padding: 2.4em;
+  }
+  .adv-text {
+    font-size: 1.4em;
+  }
+  .about-description {
+    font-size: 1.6em;
+  }
+
+  .heading-middle,
+  h2 {
+    margin-bottom: 2em;
+    font-size: 4.2em;
+  }
+
+  .offer-description-1,
+  .offer-description-2,
+  .offer-description-3 {
+    font-size: 1.2em;
+  }
+
+  .offer-description-1.open,
+  .offer-description-2.open,
+  .offer-description-3.open {
+    height: 36em;
+  }
+
+  .testimonials-section {
+    padding: 6.4em 4.2em 2.4em 4.2em;
+  }
+  .carousel-cards {
+    padding: 0 0.2em 3.6em 0.2em;
+  }
+
+  .features-section {
+    padding: 9em 6.4em 4.9em 6.4em;
+  }
+
+  .main-text {
+    padding: 0 0.6em 1.8em 0.6em;
+  }
+}
+
+/* Dimension: below 1024px - tablets */
+
+@media (max-width: 64em) {
+  .hero {
+    gap: 3.2em;
+  }
+
+  .heading-primary {
+    font-size: 3.6em;
+  }
+  .hero-text {
+    font-size: 1.5em;
+  }
+
+  .heading-middle {
+    font-size: 4em;
+  }
+  .subheading {
+    font-size: 1.4em;
+  }
+  .advantages-section .container {
+    padding: 0;
+  }
+  .adv-box {
+    padding: 1em;
+  }
+  .adavntages-section {
+    padding: 8.4em 4em;
+  }
+  .about-section {
+    padding: 4.9em 3.6em 3.2em 3.6em;
+  }
+
+  .about {
+    gap: 6.4em;
+  }
+
+  .about-description {
+    font-size: 1.4em;
+  }
+
+  .heading-middle,
+  h2 {
+    margin-bottom: 2em;
+    font-size: 4em;
+  }
+
+  .offer-section {
+    padding: 9.6rem 3.6rem 7.4rem 3.6rem;
+    margin-top: 3.2rem;
+  }
+  .offer-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offer {
+    width: 70%;
+  }
+
+  .offer-description-1.open,
+  .offer-description-2.open,
+  .offer-description-3.open {
+    z-index: 9999;
+    /* position: fixed; */
+    height: 24em;
+    font-size: 1.4em;
+  }
+  .offer img {
+    z-index: -10;
+    position: sticky;
+  }
+
+  .offer-description-1,
+  .offer-description-2,
+  .offer-description-3 {
+    z-index: 999;
+  }
+
+  .feature-logo {
+    max-height: 11em;
+  }
+  .popup-container {
+    width: 60em;
+  }
+  .popup-img img {
+    width: 95%;
+  }
+  #zamknij {
+    font-size: 1.8em;
+    padding: 0.8em 1.6em;
+  }
+}
+
+/* Dimension: below 864px - tablets */
+@media (max-width: 54em) {
+  .hero-section {
+    padding: 6.4em 0 6.4em 0;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .mascot {
+    max-width: 60%;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-text {
+    font-size: 1.6em;
+  }
+
+  .hero .btn {
+    font-size: 1.6em;
+  }
+  .advantages-section .grid {
+    column-gap: 3em;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .about-img {
+    width: 80%;
+  }
+  .heading-cta,
+  h2 {
+    font-size: 3.6em;
+    margin-bottom: 1.2em;
+  }
+
+  .cta-section .btn {
+    font-size: 1.6em;
+  }
+  .heading-primary {
+    font-size: 4em;
+
+    margin-bottom: 3.6rem;
+  }
+  .hero-text {
+    font-size: 1.6em;
+    font-weight: 500;
+  }
+  .offer-section {
+    padding: 9.6rem 2rem 7.4rem 2rem;
+  }
+  .container .offers {
+    padding: 0;
+  }
+  .features-section {
+    padding: 9em 1em 4.9em 1em;
+  }
+  .offer {
+    width: 75%;
+  }
+  .main-nav-link {
+    font-size: 1.6em;
+  }
+  .main-nav-list {
+    gap: 1.2em;
+  }
+  #zamknij {
+    font-size: 1.6em;
+    padding: 0.7em 1.4em;
+  }
+}
+
+/* Dimension: below 704px - tablets */
+@media (max-width: 44em) {
+  .heading-middle {
+    font-size: 3.2em;
+  }
+  .subheading {
+    font-size: 1.3em;
+  }
+  .cta-box {
+    grid-template-columns: 1fr;
+  }
+  .offer-section {
+    padding: 6.4em 1.8em 6.4em 1.8em;
+  }
+  .adavntages-section {
+    padding: 6.4em 4em;
+  }
+  .testimonials-section {
+    padding: 3.2em 4.2em 2.4em 4.2em;
+  }
+  .container-testimonials {
+    max-width: fit-content;
+    padding: 0 6.4em 0 6.4em;
+  }
+  .slide {
+    height: 32em;
+    padding: 0 1.2em;
+    margin-bottom: 4.8em;
+  }
+  .opinie-google {
+    padding: 0;
+  }
+  .about-section {
+    padding: 4.8em 3.6em 3.2em 3.6em;
+  }
+  .offer-cards {
+    padding: 0 0 0 0;
+    gap: 6.4em;
+  }
+  .offer-description-1.open,
+  .offer-description-2.open,
+  .offer-description-3.open {
+    z-index: 9999;
+    /* position: fixed; */
+    height: 25em;
+    font-size: 1.3em;
+  }
+
+  .container.offers {
+    padding: 0;
+  }
+  .offer-cards {
+    margin: 0;
+  }
+  .offer-cards .open {
+    gap: 10em;
+  }
+  .offer {
+    width: 80%;
+  }
+  .feature-logo {
+    max-height: 7.5em;
+  }
+  .logo-google {
+    width: 6em;
+  }
+  .opinie-text {
+    font-size: 1em;
+  }
+  .popup-container {
+    width: 45em;
+    padding: 4em 0 4em 4em;
+    align-items: center;
+  }
+
+  .popup-container p {
+    font-size: 1.5em;
+  }
+  .popup-container p,
+  .popup-container .email {
+    font-size: 1.5em;
+  }
+  #zamknij {
+    font-size: 1.4em;
+    padding: 0.6em 1.2em;
+  }
+}
+/* Dimension: below 640px - tablets */
+@media (max-width: 40em) {
+  .hero-section.container {
+    column-gap: 0;
+  }
+
+  .logo {
+    width: 16em;
+  }
+
+  .adv-text {
+    font-size: 1.2em;
+  }
+  .advantages-section {
+    padding: 6.4em 3em;
+  }
+
+  .adv-box:hover .adv-text {
+    color: #172632;
+  }
+
+  .hero-text {
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+}
+
+/* Dimension: below 560px - tablets */
+@media (max-width: 35em) {
+  .adv-text {
+    font-size: 1.1em;
+  }
+  .advantages-section .grid {
+    column-gap: 2em;
+  }
+  .heading-middle {
+    font-size: 3em;
+  }
+  .header {
+    padding: 0 1em;
+  }
+  .main-nav-list {
+    gap: 0.8em;
+  }
+  .main-nav-link {
+    font-size: 1.4em;
+  }
+  .logo[name="logo-1"] {
+    display: none;
+  }
+  .logo[name="logo-2"] {
+    display: block;
+    width: 12em;
+  }
+  .logo {
+    margin-top: 3.5em;
+    margin-left: 1em;
+  }
+  .container.about {
+    padding: 1em;
+  }
+}
+
+/* Dimension: below 496px - tablets */
+@media (max-width: 31em) {
+  .heading-primary {
+    font-size: 3.2em;
+    line-height: 1.1;
+
+    margin-bottom: 3.6rem;
+  }
+  .hero.btn {
+    font-size: 1.6em;
+  }
+  .offer {
+    width: 95%;
+  }
+  .offer-description-1.open,
+  .offer-description-2.open,
+  .offer-description-3.open {
+    z-index: 9999;
+    /* position: fixed; */
+    height: 27em;
+    font-size: 1.2em;
+  }
+  .hero {
+    padding: 0 2.2em;
+  }
+
+  .hero-section {
+    padding: 4.8em 0;
+  }
+
+  .offer-section {
+    padding: 1em 1.8em 6.4em 1.8em;
+  }
+  .about-img {
+    width: 90%;
+  }
+  .about-section {
+    padding: 2.4em 1.8em 3.2em 1.8em;
+  }
+  .container-testimonials {
+    padding: 0 2.8em 0 2.8em;
+  }
+  .cta-section {
+    padding: 9.6em 3.2em 9.6em 3.2em;
+  }
+  .map {
+    width: 100%;
+    height: 25em;
+  }
+
+  .heading-cta,
+  h2 {
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+  }
+
+  .cta-text-area {
+    text-align: center;
+  }
+  .cta-box {
+    padding: 2.4em 2.4em 4.8em 2.4em;
+  }
+  .cta-text .btn {
+    font-size: 1.4em;
+  }
+  .footer-section {
+    padding: 4.8em 3.2em 4.8em 3.2em;
+  }
+  .copyright {
+    font-size: 1.1em;
+  }
+  .cta-text {
+    font-size: 1.6em;
+  }
+  .feature-logo {
+    max-height: 7em;
+    align-self: center;
+    justify-self: center;
+  }
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: end;
+    align-items: center;
+    row-gap: 0;
+  }
+  .feature-logo[name="partner2.jpeg"] {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .feature-logo[name="partner5.jpeg"] {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .feature-logo[name="partner6.jpeg"] {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .feature-logo[name="partner3.jpeg"] {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .feature-logo[name="partner4.jpeg"] {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+  .feature-logo[name="partner1.jpeg"] {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .adavntages-section .heading-middle {
+    font-size: 2.8em;
+    margin-bottom: 1em;
+  }
+  .features-section .heading-secondary {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .popup-container {
+    width: 35em;
+    padding: 1.8em 0 2.8em 2.8em;
+    align-items: center;
+  }
+
+  .popup-container p {
+    font-size: 1.5em;
+  }
+  #zamknij {
+    font-size: 1.4em;
+    padding: 0.6em 1.2em;
+  }
+}
+/* Dimension: below 416px - Iphone 13 pro */
+@media (max-width: 26em) {
+  .logo[name="logo-2"] {
+    width: 10.5em;
+  }
+  .heading-middle {
+    font-size: 2.8em;
+  }
+  .subheading {
+    font-size: 1.25em;
+  }
+  .heading-primary {
+    font-size: 3em;
+    line-height: 1.1;
+
+    margin-bottom: 3.6rem;
+  }
+  .hero-text {
+    font-size: 1.7em;
+  }
+  .map {
+    width: 100%;
+    height: 20em;
+  }
+  .heading-cta,
+  h2 {
+    font-size: 3.2em;
+    margin-bottom: 2em;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+  }
+
+  .cta-text-area {
+    text-align: center;
+  }
+  .cta-box {
+    padding: 2.4em 2.4em 4.8em 2.4em;
+  }
+  .cta-section .btn {
+    font-size: 1.4em;
+    padding: 1em 2em;
+  }
+
+  .cta-text {
+    font-size: 1.4em;
+  }
+  .cta-section {
+    padding: 6.4em 3.2em 6.4em 3.2em;
+  }
+  .copyright {
+    font-size: 1em;
+  }
+  .advantages-section .grid--4-cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 2.5em;
+    column-gap: 1em;
+  }
+
+  .adv-icon {
+    /* color: #172632; */
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    background-color: #339af0;
+    /* background-color: #d7d7d7; */
+    padding: 1.2em 1.2em;
+    border-radius: 20px;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.4rem;
+  }
+
+  .adv-box {
+    width: 26em;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 1.2em 0.5em #17263212;
+  }
+
+  .adavntages-section .container {
+    align-items: center;
+  }
+  .adv-text {
+    line-height: 1.2;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+}
